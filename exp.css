@@ -4,11 +4,11 @@
     text-align: left;
     padding-right: 24px;
     font-size: 1.5em;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Franklin Gothic Medium', sans-serif;
   }
   #subtitle{
     text-align: left;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Franklin Gothic Medium', sans-serif;
     margin-top: 0px;
     margin-bottom: 56px;
   }
@@ -24,7 +24,7 @@
       float: right;
       margin-top: 32px;
     /*  margin-bottom: 56px;*/
-      font-family: 'Chivo', sans-serif;
+      font-family: 'Franklin Gothic Medium', sans-serif;
   }
   li a {
       display: block;
@@ -43,7 +43,7 @@
     background-color: fafafa;
     width: 80%;
     margin: 30px auto;
-    font-family: "Chivo", sans-serif;
+    font-family: "Franklin Gothic Medium", sans-serif;
   }
 
   h3 {
@@ -169,7 +169,7 @@
   margin-right: 10%;
 }
 h6{
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Franklin Gothic Medium', sans-serif;
   color: #d0d0d0;
   padding-bottom: 0px;
   font-weight: 400;
