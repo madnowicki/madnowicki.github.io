@@ -1,0 +1,17 @@
+img {
+	border: solid;
+	display: inline-block;
+	width: 200px;
+}
+.hover:hover {
+	border-radius: 30px;
+}
+.active:active {
+	opacity: 0.5;
+}
+.focus:focus {
+	focus: ;
+}
+.focus:active{
+	filter: grayscale(100%);
+}
