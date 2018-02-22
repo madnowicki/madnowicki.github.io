@@ -1,45 +1,98 @@
-@media only screen and (min-width: 650px){
-	 nav ul {
+@media only screen and (min-width: 650px) {
+ nav ul {
         text-align: center;
         display: inline-flex;
     }
 
     nav li {
         display: inline;
+        padding: .25em;
     }
-    .top-nav ul{
-		list-style-type: none;
-		padding: 20px;
-		background-color: #211D24; /*CHANGE*/
-	}
-    .top-nav ul li{
-    	border-color: #F54320;
-		padding: 10px; 
-		margin-right: -5px;
-    }
+
     .top-nav ul li a  {
         display: inline;
     }
 
-    .photo-grid {
-	  padding: 0;
-	  margin: 0;
-	  list-style: none;
-	  display: -ms-flexbox;
-	  display: flex;
-	  flex-flow: row-reverse wrap; /*Try nowrap and resize*/
-	}
+}
 
-	.photo-cell {
-	  box-sizing: border-box;
+@media only screen and (min-width: 1000px){
+    .top-nav ul li {
+    border-top: none; 
+}
 
-	  width: 100%;
-	}
-	.photo-cell-vertical{
-	  box-sizing: border-box;
-	  width: 50%;
-	  margin-left: 0;
-	}
+}
+@media only screen and (min-width: 650px) {
+.top-nav ul {
+    text-align: center;
+    border-color: red;
+}
+}
+
+
+.photo-grid {
+    text-align: center;
+
+}
+
+/*.yellow, .blue {
+    display: inline-block;
+    width: 46%;
+    text-align: left;
+    margin: 5px;
+}*/
+
+@media only screen and (min-width: 650px) {
+    .yellow, .blue {
+    display: inline-block;
+    width: 46%;
+    text-align: left;
+    margin: 5px;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .top-nav ul {
+        text-align: right;
+        height: 62px;
+
+    }
+    .top-nav ul li {
+        padding-right: 15px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+
+
+    .black, .maroon, .green, .lightblue, .red  {
+        display: inline-block;
+        width: 46%;
+        text-align: left;
+        margin: 5px;
+    }
+    .yellow, .blue {
+        display: inline-block;
+        width: 22%;
+        text-align: left;
+        margin: 5px;
+
+    }
+
+    .logo a {
+        position: absolute;
+        bottom: 0px;
+        left: 20px;
+    }
 
 
 }
+
+/*@media only screen and (min-width: 650px) {
+    .photo-cell img .half {
+    display: inline-block;
+    width: 40%;
+}
+}
+*/
