@@ -1,0 +1,89 @@
+/* GENERAL APPEARANCE */
+html, body, h1, form, fieldset, legend, ol, li {
+	margin-left:auto;
+	margin-right: auto;
+	padding: 0;
+}
+h4{
+	color:white;
+}
+h2{
+	text-align: center;
+}
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: "Avenir", "Helvetica", sans-serif;
+	padding: .5%;
+}
+
+form{
+	background: pink;
+	padding: 2%;
+	width: 50%;
+}
+
+input {
+	display:inline-block;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+fieldset{
+	border-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+/* Style the list items*/
+form ol li {
+	background: #b9cf6a;
+	background: rgba(255,255,255,.3);
+	border-color: #e3ebc3;
+	border-color: rgba(255,255,255,.6);
+	border-style: solid;
+	border-width: .5%;
+	-moz-border-radius: 2%;
+	-webkit-border-radius: 2%;
+	border-radius: 2%;
+	list-style: none;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+form ol ol li {
+	background: none;
+	border: none;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+
+/*Add a counter to the elements */
+form{
+	counter-reset: fieldsets;
+}
+
+form > fieldset > legend:before {
+	content: "Step " counter(fieldsets) ": ";
+	counter-increment: fieldsets;
+}
+
+/*payment formatting */
+form fieldset fieldset label {
+	background:none no-repeat left 50%;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+	width: auto;
+}
+form label[for=visa] {
+	background-image: url("img/visa.gif");
+}
+form label[for=amex] {
+	background-image: url("img/amex.gif");
+}
+form label[for=mastercard] {
+	background-image: url("img/mastercard.gif");
+}

@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+}
+body{
+	background: #eee;
+	color: #444;
+}
+#wrap{
+	background-color: #eee;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+header{
+	margin-top: 20px;
+}
+header h1{
+	text-align: center;
+}
+nav {
+}
+nav li{
+	display: inline-block;
+	margin-left: 0 auto;
+	padding: 10px;
+}
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+#content{
+	display: inline-block;
+	position: relative;
+	width: 70%;
+}
+#content li{
+	text-align: center;
+	list-style-type: none;
+}
+footer{
+	text-align: center;
+}
+aside{
+	display: inline;
+	background-color: white;
+	right: 0;
+	position: absolute;
+	height: 100%;
+	width: 25%;
+}
