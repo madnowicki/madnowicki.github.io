@@ -31,6 +31,9 @@ html, body, header, footer{
     margin: 0;
     padding: 0;
 }
+html, body, header {
+	background-image: url("../img/zebra.jpg")
+}
 header, footer, .logo {
 	background-color: #211D24;
 	color: #DDDDDA; 
@@ -79,12 +82,16 @@ header{
 	font-size: 105%;
     width: 100%;
     position: fixed;
+    text-align: center;
+}
+header h1 {
+	letter-spacing: 4px;
 }
 /*mobile-first*/
 .top-nav ul{
 	list-style-type: none;
 	padding: 0;
-	background-color: #ECECEA; /*CHANGE*/
+	background-color: rgba(0,0,0,.5); 
 	margin: 0;
 	display: block;
 }
@@ -108,7 +115,7 @@ header{
 	text-align: center;
 }---*/
 .top-nav ul li a.current-page{
-	color: #444;
+	color: white;
 }
 .top-nav ul li a.current-page:before {
   content: "\27A4  ";
@@ -135,7 +142,7 @@ header{
 
 /*-----LOGO-----*/
 .logo{
-	background-color: #ECECEA; /*CHANGE*/
+	background-color: rgba(0,0,0,.5); 
 	margin: 0;
 	text-align: center;
 	padding: 20px;

@@ -1,0 +1,67 @@
+/*ACCESSIBILITY*/
+.skip{
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+    color: #E3AD02;
+}
+a.skip:active, a.skip:focus, a.skip:hover {
+    position:fixed;
+    top: auto;
+    left: auto; 
+    width: auto; 
+    height: auto; 
+    overflow: visible;
+    z-index: 999;
+}
+header{
+    background-image: url('gradient.png');
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    font-family: 'Futura', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: grey;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a.current-page {
+    color: red;
+}
+
+nav, p {
+    font-family: sans-serif;
+}
+
+
+footer{
+    background-image: url('gradient.png');
+    padding: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
