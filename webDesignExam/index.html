@@ -10,13 +10,13 @@
 		function myFunction() {
 		    var x = document.getElementById("hidden");
 		    x.style.display = "none";
-		    var y = document.getElementById("shown");
-		    y.style.margin="0 auto";
+		    document.getElementById("shown").style.marginLeft="30%";
 		}
 		function myFunction2() {
 		    var x = document.getElementById("hidden");
 			if (x.style.display === "none") {
 		        x.style.display = "block";
+		        document.getElementById("shown").style.margin="0";
 		   }
 		}
 
