@@ -6,17 +6,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--Style-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type='text/javascript'>
+		function myFunction() {
+		    var x = document.getElementById("hidden");
+		    x.style.display = "none";
+		    var y = document.getElementById("shown");
+		    y.style.margin="0 auto";
+		}
+		function myFunction2() {
+		    var x = document.getElementById("hidden");
+			if (x.style.display === "none") {
+		        x.style.display = "block";
+		   }
+		}
+
+	</script>
 </head>
 <body>
 	<h1>Madeline Nowicki</h1>
 
    		<img id='hidden' src="images/examPic.JPG" alt="exam pic">
 
-    	<img src="images/UMSI-logo.jpg" alt="UMSI logo">
+    	<img id='shown' src="images/UMSI-logo.jpg" alt="UMSI logo">
 
-	<button type=submit onClick="document.getElementById('hidden').style.display='none';">Hide Image</button>
+	<button type=submit onClick='myFunction()'>Hide Image</button>
 
-	<button type=submit onClick="document.getElementById('hidden').style.display='inline-flex';">Show Image</button>
-	
+	<button type=submit onClick='myFunction2()'>Show Image</button>
+
 </body>
 </html>

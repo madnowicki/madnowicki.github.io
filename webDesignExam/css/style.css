@@ -1,3 +1,6 @@
+body{
+	background-image: url("../images/funky-lines.png");
+}
 img {
 	display: inline-flex;
 	box-sizing: border-box;
