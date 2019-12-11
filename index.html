@@ -1,44 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>SI 339 Index</title>
-	<style>
-		body{
-			margin-left: 20px;
-			margin-top: 40px;
-		}
-		h1{
-			font-family: Helvetica, sans-serif;
-			font-size: 22px;
-			color:darkgray;
-		}
-		.si339 {
-			color:gray;
-			text-decoration: none;
-		}
+  <meta charset="utf-8">
+  <title>Madeline Nowicki</title>
+  <link href="http://fonts.googleapis.com/css?family=Inconsolata:400,400italic,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Forum" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <style>
+    h1{
+      font-family: Futura, sans-serif;
+      font-size: 40px;
+      margin-bottom: 0px;
+      line-height: 48px;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+    h2{
+      font-family: Futura, sans-serif;
+      font-size: 20px;
+      margin-bottom: 0px;
+      margin-top: 40px;
+      /*text-align: center;*/
+    }
+    h3{
+      font-family: Futura, monospace;
+      font-weight: lighter;
+      font-style:italic;
+      font-size: 16px;
+      margin-top: 0px;
+      text-align: center;
+    }
+    body{
+/*      text-align: center;
+*/      font-family: Futura, monospace;
+      font-weight: lighter;
+      font-size: 16px;
+      line-height: 26px;
+/*      padding-left: 10%;
+      padding-right: 35%;
+*/      padding-top: 3%;
+      padding-bottom: 5%;
+      vertical-align: center;
+      color: #FF001C;
+/*      color:#262626;
+*/      background-color: #F7E1DF;
+      /*background-image: linear-gradient(to top right, #F7E1D3, #D9EFDD, #F5D2D3, #E8DBF5, #F7E1D3);*/
+    }
+    a{
+      font-weight: bold;
+      color: #FF001C;
+      /*color: #262626;*/
+    }
+    a:hover{
+      background-color: #FF001C;
+      color: white;
+    }
+    ul{
+      list-style-type: none;
+      padding-left: 0px;
+    }
+    li{
+      padding-bottom: 24px;
+    }
+    .sub-item{
+      padding-bottom: 8px;
+    }
+    .main-item{
+    }
+    .material-icons.md-18{ 
+      font-size: 18px;
+    }
 
-	</style>
+    .accordion {
+      color: #FF001C;
+      font-family: Futura;
+      cursor: pointer;
+      width: 60%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 16px;
+      transition: 0.4s;
+      background-color: #F7E1DF;
+      margin-left: -7px;
+    }
+
+    .active, .accordion:hover {
+      background-color: #FF001C;
+      color: #fff;
+    }
+
+    .panel {
+      /*padding: 0 18px;*/
+      margin-left: -3px;
+      background-color: #F7E1DF;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      margin-bottom: -10px;
+    }
+
+    .accordion:after {
+      content: '\002B';
+      color: #fff;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+    .wrapper{
+      margin: auto;
+      width: 50%;
+    }
+  </style>
+
 </head>
 <body>
-	<h1>writing about reading</h1>
-	<div style="float:left; width:50%; border: 5px solid red;">
-		DIV 1
-	</div>
-	<div style="float:right; width 50%; border: 5px solid blue;">
-		DIV 2
-	</div>
-	<div>
-		<ul style="font-size: 10; color: ">
-			<li><a class="si339" href="ICEHTML/index.html">ICE 1</a></li>
-			<li><a class="si339" href="ICECSS/ICE-CSS/icecss.html">ICE 2</a></li> 
-			<li><a class="si339" href="ICERESPONSIVE/index.html">ICE 4</a></li>
-			
-			<li><a class="si339" href="PurchaseForm/purchaseForm2.html">ICE 8</a></li>
-			<li><a class="si339" href="">ICE 10</a></li>
-			<li><a class="si339" href="portfolio/folio2.html">Portfolio in progress</a></li>
-			<li><a class="si339" href="final_portfolio/portfolio.html">Final portfolio completed</a></li>
-		</ul>
-	</div>
+  <div class="wrapper">
+  <div>
+    <h1>MADELINE NOWICKI</h1>
+    <h3>Currently: Designing @ Nike WHQ in Portland, OR</h3>
+  </div>
+  <div>
+    <h2>Hi! You’ve found my website. Welcome.</br>
+    </h2>
+      <p class="main-item">If you’re looking for examples of my work
+          as a user experience researcher & designer,
+          you can click through some samples on my
+          <a href="#">portfolio.</a>
+      </p>
+      <p class="main-item">If you want to see this experience represented 
+          on an 8.5” x 11” sheet of paper, here’s my
+          <a href="#">resume.</a>
+      </p>
+    <button class="accordion">If you want to know more about me...</button>
+    <div class="panel">
+        <ul id="sub-list">
+          <li class="sub-item">👩🏻‍🎓 I studied UX research & design (and English) at the University of Michigan.</li>
+          <li class="sub-item">📚 When I'm not designing, I'm reading, with the goal of reaching 40 books per year. This year I especially enjoyed <a href="#">Trick Mirror</a> by Jia Tolentino, <a href="#">Little Weirds</a> by Jenny Slate, and <a href="#">The Secret History</a> by Donna Tartt.</li>
+          <li class="sub-item">🎉 I also love writing about the books I read, creative writing, running slowly, collage, doodling, crossword puzzles, and karaoke.</li>
+          </ul> 
+    </div>
+      <p>Thanks for stopping by. I'd love to hear what you think: <a href="https://www.twitter.com/madnowicki">@madnowicki</a> / on <a href="https://www.linkedin.com/in/madeline-nowicki-02a160b8">LinkedIn</a> / madnowicki at gmail dot com
+      </p>
+  </div>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </body>
 </html>
