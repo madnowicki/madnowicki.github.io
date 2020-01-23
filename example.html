@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Madeline Nowicki</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body>
+
+    <!-- Site Navigation
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="headerbackground">
+    <div class="container">
+        <div class="row" style="padding-top: 15px;">
+            <div class="twelve columns">
+                <a href="index.html"><img src="images/AvatarMe3.png" alt="BE" style="width: 60px;"></a>
+
+                <div class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><a class="navbar-link" href="index.html">Projects</a></li>
+                        <!-- <li class="navbar-item"><a class="navbar-link" href="#examples">Blog</a></li> -->
+                        <li class="navbar-item"><a class="navbar-link" href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <div class="header">
+        <img src="images/SalesPadCS/SalesPadHeader.png" alt="SalesPadScreens">
+    </div>
+</div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="container" style="margin-top: 25px;">
+    <div class="row">
+        <div class="offset-by-one ten columns">
+            <h2 style="margin-bottom: 0px;">Nike Automation Registry</h2>
+            <h3 style="margin-top: 10px">Product Designer | Nike TechOps</h3>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>General Problem</h4>
+            <p>Automation is a huge part of the work being done in Nike TechOps. Nearly every team has automated processes that save money, improve efficiency, and reduce human error. However, accounting for these automations (and their aforementioned gains) is a tedious offline process that feels like a big game of telephone. </br></br> Nike TechOps sought a single source of truth around automation. How might we consolidate automation data to better track and surface it organizationally?</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Research</h4>
+            <p>I spoke with the team leader, developers within the organization, and the data architect to understand stakeholder perspectives and gather information about our users. Based on these conversations, I spoke directly with a few users and determined they primarily fell into one of two categories:</p>
+            <ol style="margin-left: 40px;">
+                <li>An executive or leader interested in consuming high-level metrics about automation value</li>
+                <li>A team member who knows details about their team’s automation tools</li>
+            </ol>
+            <p>Despite their role, users expressed interest in streamlining their workflow as much as possible. Leaders were frustrated with the time it took to get metrics in the offline process they use, and developers had strong interest to keep heads-down on code rather than administrative tasks. Both groups also indicated feeling a bit detached from the Nike brand in their work. These, along with other insights, led me to synthesize these personas for the NAR project.</p>
+            <img src="img/nar/persona1.png" alt="persona">
+            <img src="img/nar/persona2.png" alt='persona'>
+        </div>
+    </div>
+
+ <!--    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Problem</h4>
+            <p>Warehouse managers want to improve efficiency in their inventory management Workflow with SalesPad Cloud features.</p>
+            <p>However, since the Workflow tool setup was not achieving this macro-visualization ability, the managers did not have context for what they were creating and were often roadblocked from achieving maximum efficiency because of the resulting confusion.</p>
+        </div>
+    </div> -->
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Process</h4>
+            <p>To start my design process, I organized an initial brainstorm session with my manager.</p>
+            <img src="images/SalesPadCS/SP_2.jpeg" alt="SPImage">
+            <p>After a few hours, we came up with three potential solutions.</p>
+            <p>I weighed the tradeoffs of a <span style="font-weight: bold;">content strategy overhaul</span> and <span style="font-weight: bold;">tutorial improvements</span>, but decided that they did not offer enough potential to solve the root of the problem.</p>
+            <p>Ultimately, I decided on our third option of <span style="font-weight: bold;">redesigning the UI and visualization of Workflow settings</span> with a focus on the visual disconnect between Batches, Rules and Actions in their settings pages.</p>
+            <p>I chose this direction because my research showed that people were confused because the settings design did not reflect a physical Workflow order. This is why our customer support specialists method of drawing the Workflow step-by-step was effective at helping our users understand what they were making.</p>
+            <p>The goal was to find a way to put that visualization method into our settings UI and close the disconnect between features. This solution best addressed the root of our problem and had a proven track record.</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Batches: Bridging the Disconnect</h4>
+            <img src="images/SalesPadCS/Original_BatchesTab.jpg" alt="SPImage">
+            <img src="images/SalesPadCS/Original_Batches.jpg" alt="SPImage">
+            <p>In the two above examples of the original Workflow settings design, Batches and Rules are separated into two pages and there is no mention of Rules on the list of Batches. This was a noticeable disconnect as it was extremely hard to see how Rules affected individual Batches without even seeing what Rules were in each Batch.</p>
+
+            <h5>Iteration</h5>
+            <p>With this in mind, I explored ways that we could bridge this disconnect through bringing Rules context into the Batch Settings page.</p>
+            <p>The two examples of explorations focus on including the Rules in the Batches cell or combining the Batches and Rules settings pages, as shown respectively below. The purpose here was to create a mental model where Batches and Rules are connected.</p>
+            <p>I also experimented with full scale visualizations, like in the tool Jira, but it was turned down by our development team because of resource and time constraints.</p>
+            <img src="images/SalesPadCS/Batches_InCell.jpg" alt="SPImage">
+            <img src="images/SalesPadCS/Batches_SplitPage.jpg" alt="SPImage">
+            <p>Both of these had the benefit of improving context for the user, but there were tradeoffs. First, given the amount of input information in the Batch cells, it would potentially get too cluttered if numerous small Rules cells were put in it.</p>
+            <p>Second, the split screen settings threatened to be too complex to put in a single screen. I realized there was intention in separating them and the core functionality of setting up Rules should be in a different page to prevent further user confusion.</p>
+            <p>Considering these tradeoffs, I decided to take the best of both options and split the screen between Batches and Rules, but only show the list of Rules for each Batch, rather than including the full Rules Settings.</p>
+            <p>The final designs can be seen below.</p>
+            <img src="images/SalesPadCS/final_batches.jpg" alt="SPImage">
+            <p>This helped solve the disconnect between Batches and Rules as it showed what Rules were included in each Batch. As you can see in the highlighted screen below, just the Rules' names are shown to prevent cognitive overload. If a user wants more context, they can click the Rule and it will take them to the Rules Settings page.</p>
+            <img src="images/SalesPadCS/Final_Batches_CloseUp.jpg" alt="SPImage">
+            <p>With Batches shown in an ordered list and the attached Batch Rules shown when clicked, the visual of the Workflow was starting to form. However, I still had to tackle Rules, the users’ biggest complaint.</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Rules: Decreasing Cognitive Overload</h4>
+            <p>The Rules Settings page was the most confusing for users. As you can see below, the various settings inputs for Rules are broken into two sections, with some on the left and right.</p>
+            <img src="images/SalesPadCS/Old_Rules_Main.jpg" alt="SPImage">
+            <p>Users often did not initially make the connection between the selected Rule on the left and extended settings on the right. Once they did they would edit the settings on the right assuming they had selected a specific Rule on the left, but ended up editing the wrong thing.</p>
+            <p>The mistakes caused by this disconnect had huge consequences, as one error could alter a whole Workflow, potentially costing a company lots of money and wasted time.</p>
+
+            <h5>Redesign</h5>
+            <p>For this redesign, I took inspiration from my previous explorations and Batch page redesign. I used the same Rules list design from the Batch page to maintain consistency and moved all of the settings inputs to the right side.</p>
+            <img src="images/SalesPadCS/final_rules.jpg" alt="SPImage">
+            <p>The intention behind moving all of the settings inputs to the right was to have a central place for all changes made. These changes can be easily mapped to the simplified Rules list on the left, where it can be seen which Rule is selected.</p>
+            <img src="images/SalesPadCS/RulesSettings_Outlined.jpg" alt="SPImage">
+            <p>This mapping improvement will decrease cognitive overload and improve context through visualization. It will also drastically reduce the the previous errors made from editing the wrong Rule.</p>
+
+            <h5>Settings Input Hierarchy</h5>
+            <p>By breaking up the sections of the Rules Settings input and touching up the visual design, I improved the hierarchy in the information offered to help users better see what they were editing.</p>
+            <p>The previous design (left) grouped the sections close together with titles smaller than other elements in the section. This made it hard to differentiate what sections made up the Rules settings. It is understandable that the users were often confused as to what they were editing.</p>
+            <img src="images/SalesPadCS/RulesSettings_Compare.jpg" alt="SPImage">
+            <p></p>The new design (right) surrounds the four sections with borders and increases the size of the titles to improve the hierarchy and information architecture. This way the users can see what makes up a Rule and what they are editing.</p>
+            <p>Additionally, I changed the order of the sections to reflect the hierarchy. After the Rule name, the most important part of Rules is the Action. In the original design, Actions were put at the end.</p>
+            <p>This change of order will help users see the flow of creating a Workflow through better showing what makes up a Rule.</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Actions: Entry Point Visibility</h4>
+            <p>As I mentioned in the last section, Action settings were previously put at the end of the Rules settings inputs.</p>
+            <img src="images/SalesPadCS/Old_Actions.jpg" alt="SPImage">
+            <p>However, the entry points to select and change an Action were buried even deeper, as you had to select the edit icon (far left) to make changes, which opened a toggle drawer. Since the edit icon was separated from the “Action Type”, it wasn’t clear that this edit button referred to Action Type.</p>
+            <img src="images/SalesPadCS/EditActionEntry.jpg" alt="SPImage">
+            <p>This burial of Action customization in the depths of Settings was causing a lot of confusion for our users. It was another level of separation and disconnect where there should have been an easy connection between Actions and Rules, as one resides within the other.</p>
+
+            <h5>Redesign</h5>
+            <p>To fix this final level of disconnect, we moved the Actions Settings section up in the Rules Settings order and brought the Action creation entry point out from the toggle drawer. Now, users will be able to see the available Actions they can add to a Rule and better see the context and relation to the flow.</p>
+            <img src="images/SalesPadCS/Actions_NewAction.jpg" alt="SPImage">
+            <p>Clicking the specific Action will still open the toggle menu because it is SalesPad’s standard and including data in the Action cell would be inconsistent because of the differing inputs for each Action.</p>
+            <p>However, being able to see the available Actions before the toggle step vastly improves the interaction flow and hierarchy of creating Actions.</p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Prototype</h4>
+            <p><a href="https://narcam.nike.com" target="blank_">Here is the web app in production</a>, viewable for those internal to Nike. Externally viewable full prototype coming soon. </p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px;">
+        <div class="offset-by-one nine columns">
+            <h4>Expectations and Conclusion</h4>
+            <p>When I handed off the designs at the end of my internship in the summer of 2017, design and development were scheduled to continue. Unfortunately, I was not able to test with real users because of the constraints of my internship and the recent release of SalesPad Cloud.</p>
+            <p>However, I was able to present and test my redesign with the implementation and customer support specialists, as they were in charge of onboarding new users and interact with customers the most of anyone in the company.</p>
+            <h4 style="margin-left: 20px; margin-top: 40px; margin-bottom: 40px;">“Wow, this is amazing. This will be much easier.”</h4>
+            <p>I received very promising feedback, as most thought it would be much easier for users to pick up and understand, thus saving hours in implementation time.</p>
+
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 45px; margin-bottom: 50px;">
+        <div class="offset-by-one nine columns">
+            <h4>What I Learned</h4>
+            <p>In the summer before the last, I had the opportunity to work at a small startup. This transition to a more established company like SalesPad brought many new lessons.</p>
+            <ol>
+                <li>Designers must always consider business goals and constraints, like development hours, when designing solutions</li>
+                <li>Always think as deeply as possible into the product thinking, then do it again</li>
+                <li>Collaboration and communication between designers/developers must be simultaneous with the design process</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
