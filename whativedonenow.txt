@@ -1,0 +1,26 @@
+since march in eap:
+-designed workshops for remote and inperson participants including users and stakeholders
+-designed user interview sessions
+-identified and recruited interview participants
+-managed potential participant bank
+-lead/facilitated user interviews
+-lead and conducted synthesis for results
+-re-vamped the presentation of synthesized insights to enable publication to wider audiences
+-facilitated affinity mapping synthesis workshop with stakeholder team after user interviews
+-built role-based persona for analytics manager based on qualitative user data
+-co-lead user journey map hybrid product value map for goal-oriented personas 
+-continually strived for rapid improvement - how can we uplevel our research readouts? how can we optimize for speed and completeness of synthesis? how can we provide alignment to product/engineering stakeholders? how can we strengthen our relationships to user community and encourage repeat participation? 
+
+
+
+From a job description that looked semi applicable/appropriate for me language-wise:
+ Discuss projects with clients to understand the current status and needs
+• Work with clients to define appropriate UX goals, metrics and KPIs
+• Scope and plan user research activities that will yield actionable data
+• Understand and incorporate complex technical and business requirements into research
+• Collect and analyze user behavior (in-field or in-lab)
+• Generate reports, user scenarios and other user research artifacts based on findings and data
+• Present research findings to diverse audiences using both written reports as well as in-person meetings
+• Identify potential research opportunities that might exist in other projects
+• Communicate research findings to UX design team and product managers and translate those findings into functional requirements
+• Conduct early stage design and feature definition activities and work with other designers to refine visual interaction, promoting consistency and efficiency 
